@@ -26,7 +26,7 @@
 
 .formulario {
     margin: 3em auto;
-    width: 30vw;
+    width: 70vw;
 }
 
 .breadcrumb li {
@@ -46,6 +46,7 @@
 }
 
 .formulario__container {
+    width: 80%;
     margin: 3em 0;
     text-align: center;
 }
@@ -182,6 +183,16 @@
         margin: 0 auto;
     }
 
+    [data-video] {
+        width: 100%;
+        height: 100%;
+    }
+
+    [data-video-canvas] {
+        width: 100%;
+        height: 100%;
+    }
+
     .camera__botao, .formulario__botao--ancora{
         font-size: 1em;
         text-align: center;
@@ -205,9 +216,6 @@
         margin: 0.5em;
     }
 
-    .formulario{
-        width: ;
-    }
     .formulario__container{
         margin: 0;
         width: 100%;

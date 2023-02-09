@@ -16,6 +16,10 @@ botaoIniciarCamera.addEventListener("click", async function () {
 
     botaoIniciarCamera.style.display = "none";
     campoCamera.style.display = "block";
+    video.style.width = "";
+    video.style.heigth = "";
+
+    console.log(` video = ${video.style.width} e ${video.style.height}`);
 
     video.srcObject = iniciarVideo;
 })
@@ -23,8 +27,10 @@ botaoIniciarCamera.addEventListener("click", async function () {
 botaoTirarFoto.addEventListener("click", function (){
     canvas.getContext("2d").drawImage(video, 0, 0, canvas.width, canvas.height);
     canvas.style.objectFit = "contain";
-
-    console.log(`${canvas.width} e ${canvas.height} e ${canvas.style.objectFit}`);
+    
+    
+    console.log({canvas});
+    console.log(`canvas = ${canvas.width} e ${canvas.height} e ${canvas.style.objectFit}`);
 
     imagemURL = canvas.toDataURL("image/jpeg");
 
