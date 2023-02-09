@@ -230,19 +230,6 @@
         padding: 0.5em 1em;
     }
 
-    [data-mensagem] {
-        margin: 0 auto;
-        width: 100%;
-        height: 100%;
-
-    }  
-
-    [data-camera] {
-        margin: 0 auto;
-        width: 100%;
-        height: 100%;
-
-    }
     [data-video] {
         margin: 0 auto;
         width: 100%;
