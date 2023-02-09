@@ -230,16 +230,7 @@
         padding: 0.5em 1em;
     }
 
-    [data-video] {
-        margin: 0 auto;
-        width: 100%;
-        height: 100%;
-
-    }
-
     [data-video-canvas] {
         margin: 1em 0;
-        width: 320;
-        height: 240;
     }
 }
