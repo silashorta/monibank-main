@@ -156,6 +156,10 @@
         width: 100%;
     }
 
+    .formulario__container{
+        width: 100%;
+    }
+
     .formulario__texto {
         margin: 0;
     }
@@ -179,13 +183,18 @@
 
     [data-video] {
         width: 100%;
+        height: 100%;
     }
 
     [data-video-canvas] {
         width: 100%;
+        height: 100%;
     }
 
-    .camera__botao{
+    .camera__botao, .formulario__botao--ancora{
+        font-size: 0.75em;
+        text-align: center;
+        width: 90%;
         padding: 1em 2em;
     }
     
@@ -201,7 +210,14 @@
         margin: 0 auto;
     }
 
-    .camera__botao{
+    .formulario__container{
+        width: 100%;
+    }
+
+    .camera__botao, .formulario__botao--ancora{
+        font-size: 0.75em;
+        text-align: center;
+        width: 90%;
         padding: 0.5em 1em;
     }
 }
