@@ -145,7 +145,7 @@
 
 @media screen and (max-width: 900px) {
     .formulario {
-        width: 70%;
+        width: 90%;
     }
 
     .formulario__titulo-texto {
@@ -157,6 +157,7 @@
     }
 
     .formulario__container{
+        margin: 0;
         width: 100%;
     }
 
@@ -192,7 +193,7 @@
     }
 
     .camera__botao, .formulario__botao--ancora{
-        font-size: 0.75em;
+        font-size: 1em;
         text-align: center;
         width: 90%;
         padding: 1em 2em;
@@ -210,13 +211,21 @@
         margin: 0 auto;
     }
 
+    .container{
+        margin: 0.5em;
+    }
+
+    .formulario{
+        width: 100%;
+    }
     .formulario__container{
+        margin: 0;
         width: 100%;
         border: 1px solid red;
     }
 
     .camera__botao, .formulario__botao--ancora{
-        font-size: 0.75em;
+        font-size: 1em;
         text-align: center;
         width: 90%;
         padding: 0.5em 1em;
