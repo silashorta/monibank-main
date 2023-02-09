@@ -148,6 +148,10 @@
         width: 70%;
     }
 
+    .formulario__titulo-texto {
+        font-size: 1em;
+    }
+
     .formulario__etapas {
         width: 100%;
     }
@@ -172,15 +176,32 @@
         width: 70%;
         margin: 0 auto;
     }
+
+    [data-video] {
+        width: 100%;
+    }
+
+    [data-video-canvas] {
+        width: 100%;
+    }
+
+    .camera__botao{
+        padding: 1em 2em;
+    }
+    
 }
 
 @media screen and (max-width: 592px){
     .banner__titulo {
         font-weight: 600;
         color: var(--branco);
-        font-size: 1.5em;
+        font-size: 1.25em;
         line-height: 39px;
         width: 70%;
         margin: 0 auto;
+    }
+
+    .camera__botao{
+        padding: 0.5em 1em;
     }
 }
